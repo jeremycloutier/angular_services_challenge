@@ -1,0 +1,14 @@
+body {
+    background-color: #00acb0;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 24px 0 48px 0;
+}
+
+.contentDiv {
+    margin: 0px 20px;
+}

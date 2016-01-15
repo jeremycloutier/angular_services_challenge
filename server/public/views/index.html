@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="thetaApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Services Solo Challenge</title>
+    <link rel="stylesheet" href="../views/styles.css">
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+</head>
+<body ng-controller="mainController">
+
+    <h1>Angular Services Solo Challenge</h1>
+<div class ='contentDiv'>
+    <p>School: {{school}}</p>
+    <p>Location: {{location}}</p>
+    <p>Cohort: {{cohort}}</p>
+    <p>Students: <span ng-repeat="student in students">{{student}}, &nbsp;</span></p>
+    <p>Instructors: <span ng-repeat="instructor in instructors">{{instructor}}, &nbsp;</span></p>
+    <p>Mascot: {{mascot}}</p>
+    <p>Motto: {{motto}}</p>
+</div>
+
+</body>
+</html>
